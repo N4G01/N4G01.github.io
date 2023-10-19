@@ -1,0 +1,44 @@
+<html>
+<head>
+	<title> Convite </title>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+
+<script>
+function substituirImagem() {
+	var imagem = document.getElementById("minhaImagem");
+	imagem.src = "carta_finish.gif"
+}
+
+
+function redirecionarParaOutraPagina() {
+	window.location.href = "https://chat.whatsapp.com/FOzmnVDKOMs7ts7j30CnW1"; // Substitua pela URL de destino
+        }
+
+</script>
+
+</head>
+
+<body>
+
+<div style="text-align: center;">
+	<a href="javascript:void(0);" onclick="substituirImagem();" id="abrirModal">
+		<img id="minhaImagem" src="carta_begin.gif" alt="Minha Imagem" >
+	</a>
+
+	<div id="janelaModal" class="modal">
+	<div class="modal-conteudo">
+		<span id="fecharModal" class="fechar">&times;</span>
+            		<h2>Você recebeu um convite para peça <i> Pulmões</i></h2>
+			<p>Para mais informações, acesse: <a href="https://riocultura.eleventickets.com/#!/apresentacao/c961dabc5fd388ed051d7d511c2621fd5723de05">https://riocultura.eleventickets.com</a></p>
+
+		<h2>Vamos?</h2>
+		<button id="botaonormal" onclick="redirecionarParaOutraPagina()">Sim</button>
+		<button id="botaoFugitivo">Não</button>
+		
+        </div>
+    </div>
+    <script src="script.js"></script>
+</div>
+
+</body>
+</html>
